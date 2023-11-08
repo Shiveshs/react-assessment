@@ -22,9 +22,8 @@ const DetailsPage = () => {
         if (ndcList) {
           setNDC(ndcList);
           setLoading(false);
-        }
-        else{
-          setError("No NDCs found for this drug.")
+        } else {
+          setError("No NDCs found for this drug.");
           setLoading(false);
         }
       })
@@ -61,7 +60,7 @@ const DetailsPage = () => {
         {loading ? (
           <Loader />
         ) : error ? (
-          <Error errorMessage={error}/>
+          <Error errorMessage={error} />
         ) : (
           <div className="ndc-table-wrapper">
             <table id="table">
