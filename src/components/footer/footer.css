@@ -1,0 +1,11 @@
+.footer-container{
+position: absolute;
+bottom: 0;
+text-align: center;
+width: 100vw;
+height: 6rem;
+background: rgb(248, 253, 249);
+display: flex;
+justify-content: center;
+align-items: center;
+}
