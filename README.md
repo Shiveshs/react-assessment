@@ -6,7 +6,7 @@ git clone https://github.com/Shiveshs/react-assessment.git
 
 OR
 
-Download the zip format of the source directry
+Download the zip format of the source directory
 
 ## Step 1
 
